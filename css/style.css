@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.dashboard{
+   display: flex;
+   height: 100vh;
+}
+.navigation{
+width: 15%;
+background-color: aquamarine;
+height: 100%;
+
+}
+.content{
+    width: 85%; 
+    height: 100%;
+
+}
+.header{
+    background-color: maroon;
+    text-align: center;
+    height: 10%;
+}
+.row_one{
+    display: flex;
+   height: 60%;  
+}
+.left{
+    background-color: blueviolet;
+    width: 60%;
+    height: 100%;
+}
+.right{
+    
+    width: 40%;
+    height: 100%;
+}
+.top{
+    background-color:yellowgreen;
+   
+    height: 50%;
+}
+.bottom{
+    background-color:black;
+   
+    height: 50%;
+}
+.row_two{
+    height: 30%;
+    background-color: green;
+}
